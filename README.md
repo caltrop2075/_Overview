@@ -19,6 +19,12 @@ _acronym.txt -> readme
 /.local/bin/acronym.dat
 /.local/bin/acronym.sh
 
+bar
+_bar.txt -> readme
+      /data/bar-lib.dat
+      /data/bar-test.dat
+/.local/bin/bar.awk
+
 calendar
 _calendar.txt -> readme
 /.local/bin/cal.sed
@@ -57,6 +63,10 @@ _fat cat.txt -> readme
 /.local/bin/mntx.awk
 /.local/bin/mntx.sh
 
+git hub
+_git hub.txt -> readme
+/.local/bin/git-hub.sh
+
 moon
 _moon.txt -> readme
 /.local/bin/df.awk
@@ -82,7 +92,7 @@ title boxes
 _title boxes.txt -> readme
 /.local/bin/title-80.sh
 /.local/bin/title-cmd.awk
+      /data/title-test.dat
        /bin/title-test.sh
 /.local/bin/title.awk
-      /data/title.dat
 /.local/bin/title.sh
