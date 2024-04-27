@@ -1,26 +1,38 @@
 # _Overview
 a look at all repositories
 
-<B>acronym<\B>
+--------------------------------------------------------------------------------
+acronym
+
 Acronym Stuff (AS)
 
 acronym generator & substitution
-<B>ascii<\B>
+--------------------------------------------------------------------------------
+ascii
+
 ASCII Stuff
 
 ASCII tables
 conversions to & from ASCII
-<B>bar<\B>
+--------------------------------------------------------------------------------
+bar
+
 bar graph from data file
-<B>caja<\B>
+--------------------------------------------------------------------------------
+caja
+
 if you're running (Mint) Mate the file manager is Caja
 
 finally started doing caja scripts - never knew...
 
 you can do loads of stuff to files via caja
-<B>calendar<\B>
+--------------------------------------------------------------------------------
+calendar
+
 Calendar Utilities
-<B>devices-serial<\B>
+--------------------------------------------------------------------------------
+devices-serial
+
 serial & devices
 
 iRiver MP3 Player
@@ -34,11 +46,15 @@ this lead a system configuration adventure
 lsusb-s.sh
 
 lists usb devices
-<B>dice<\B>
+--------------------------------------------------------------------------------
+dice
+
 rolling dice
 
 display of various dice combinations
-<B>disk<\B>
+--------------------------------------------------------------------------------
+disk
+
 disk utilities
 
 disk.sh
@@ -58,19 +74,29 @@ a continuation or the previous
 this shows a bargraph for all first level directories for all external drives
 the $HOME drive has too many directories for this to work well
 so I did external drives only that are used for storage
-<B>fat-cat<\B>
+--------------------------------------------------------------------------------
+fat-cat
+
 sort & catalog flash drives
-<B>ffmpeg<\B>
+--------------------------------------------------------------------------------
+ffmpeg
+
 automated ffmpeg stuff
 
 see individual scripts for instructions
-<B>gps<\B>
+--------------------------------------------------------------------------------
+gps
+
 various utilities for maintaining GPS data
-<B>media<\B>
+--------------------------------------------------------------------------------
+media
+
 used for maintaining flash media
 
 drive list stored in flash.dat, can be used elsewhere
-<B>misc<\B>
+--------------------------------------------------------------------------------
+misc
+
 miscellaneous stuff here
 
 file.sh [-c] "filename"
@@ -96,13 +122,19 @@ lnk-chk.sh
 checks home directory for broken links
 lists possible solutions
 if you're linked into the root directory no solutions will be offered
-<B>moon<\B>
+--------------------------------------------------------------------------------
+moon
+
 phases of the moon & prompt
 
 can be used in command line prompt
-<B>pactl<\B>
+--------------------------------------------------------------------------------
+pactl
+
 an easy way to change your Pulse Audio Sound Settings
-<B>periodic<\B>
+--------------------------------------------------------------------------------
+periodic
+
 periodic table utility
 
 recognizes regular expressions
@@ -110,11 +142,16 @@ recognizes regular expressions
 put the data CSV where you want then modify periodic.sh
 
 the original CSV data had Wolfram (sumbol W) it is now Tungsten
-<B>title-boxes<\B>
+--------------------------------------------------------------------------------
+title-boxes
+
 title boxes
 
 draw various boxes around centered text
-<B>xed<\B>
+--------------------------------------------------------------------------------
+xed
+
 xed text editor
 
 how to configure it
+--------------------------------------------------------------------------------
