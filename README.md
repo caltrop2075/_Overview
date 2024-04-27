@@ -1,172 +1,176 @@
 # _Overview
 a look at all repositories
 
-Git Hub Projects
 
-my $PATH, the important ones start with $HOME
-$HOME/.local/bin:$HOME/bin:$HOME/plot:/usr/bin:/usr/games:/usr/sbin:/usr/local/bin:/usr/local/games:/usr/local/sbin
-things used a lot go in /.local/bin
-
-my scripts & locations in the home directory
-project name, readme text, files
-
+================================================================================
 acronym
-/home/caltrop/data/acronym.dat
-/home/caltrop/.local/bin/acronym.sh
-_acronym.txt -> readme
-/home/caltrop/bin/acro-sub.awk
-/home/caltrop/data/acro-sub.dat
-/home/caltrop/bin/acro-sub.sh
-/home/caltrop/data/acro-sub.txt
+--------------------------------------------------------------------------------
+Acronym Stuff (AS)
 
+acronym generator & substitution
+
+================================================================================
 ascii
-/home/caltrop/bin/example/ascii.awk
-/home/caltrop/.local/bin/ascii-dump.sh
-/home/caltrop/bin/example/ascii.sh
-/home/caltrop/.local/bin/ascii-table.awk
-_ascii.txt -> readme
-/home/caltrop/Documents/Linux/Programming/Secrets Of printf.pdf
-/home/caltrop/Documents/Linux/Programming/Secrets Of printf.txt
+--------------------------------------------------------------------------------
+ASCII Stuff
 
+ASCII tables
+conversions to & from ASCII
+
+================================================================================
 bar
-/home/caltrop/.local/bin/bar.awk
-/home/caltrop/data/bar-lib.dat
-/home/caltrop/data/bar-test.dat
-_bar.txt -> readme
+--------------------------------------------------------------------------------
+bar graph from data file
 
+================================================================================
 caja
-_blank.sh -> readme
-_caja.txt -> readme
-/home/caltrop/.config/caja/scripts/case-l.sh
-/home/caltrop/.config/caja/scripts/case-t.dat
-/home/caltrop/.config/caja/scripts/case-t+.sh
-/home/caltrop/.config/caja/scripts/case-t.sh
-/home/caltrop/.config/caja/scripts/case-u.sh
-/home/caltrop/.config/caja/scripts/dte-de-tag.sh
-/home/caltrop/.config/caja/scripts/dte-re-tag.sh
-/home/caltrop/.config/caja/scripts/dte-tag.sh
-/home/caltrop/.config/caja/scripts/garbage.sh
-/home/caltrop/.config/caja/scripts/opn-lnk-dir.sh
-/home/caltrop/.config/caja/scripts/spc-de.sh
-/home/caltrop/.config/caja/scripts/spc-re.sh
+--------------------------------------------------------------------------------
+if you're running (Mint) Mate the file manager is Caja
 
+finally started doing caja scripts - never knew...
+
+you can do loads of stuff to files via caja
+
+================================================================================
 calendar
-/home/caltrop/.local/bin/calen.awk
-_calendar.txt -> readme
-/home/caltrop/.local/bin/calen.sh
-/home/caltrop/.local/bin/cal.sed
-/home/caltrop/.local/bin/cal.sh
-/home/caltrop/.local/bin/dow.sh
-/home/caltrop/.local/bin/food2.sh
-/home/caltrop/.local/bin/food.sh
-/home/caltrop/data/julian-food.dat
-/home/caltrop/.local/bin/julian.sh
-/home/caltrop/data/julian-systems.dat
-/home/caltrop/.local/bin/mcal.awk
-/home/caltrop/.local/bin/mcal.sh
-/home/caltrop/.local/bin/shows.awk
-/home/caltrop/.local/bin/shows.sed
-/home/caltrop/.local/bin/shows.sh
-/home/caltrop/.local/bin/tz.sh
+--------------------------------------------------------------------------------
+Calendar Utilities
 
-devices & serial (iRiver)
-_devices & serial.txt -> readme
-/home/caltrop/.local/bin/ifp-ana.sh
-/home/caltrop/.local/bin/ifp.awk
-/home/caltrop/.local/bin/ifp-bkp.sh
-/home/caltrop/.local/bin/ifp-fnd.sh
-/home/caltrop/.local/bin/ifp.sh
-/home/caltrop/.local/bin/lsusb-s.sh
+================================================================================
+devices-serial
+--------------------------------------------------------------------------------
+serial & devices
 
+iRiver MP3 Player
+
+configure using command line
+there are no more Linux GUI's
+
+this lead a system configuration adventure
+/etc/udev/rules.d/50-udev.rules
+
+lsusb-s.sh
+
+lists usb devices
+
+================================================================================
 dice
-/home/caltrop/.local/bin/base.sh
-/home/caltrop/bin/dice.sh
-_dice.txt -> readme
+--------------------------------------------------------------------------------
+rolling dice
 
+display of various dice combinations
+
+================================================================================
 disk
-/home/caltrop/.local/bin/disk.awk
-/home/caltrop/.local/bin/disk-c.sh
-/home/caltrop/.local/bin/disk-h.sh
-/home/caltrop/.local/bin/disk.sh
-/home/caltrop/.local/bin/disk-sum.awk
-/home/caltrop/.local/bin/disk-sum.sh
-_disk.txt -> readme
+--------------------------------------------------------------------------------
+disk utilities
 
-fat cat
-/home/caltrop/.local/bin/fat-cat.awk
-/home/caltrop/.local/bin/fat-cat-dir.awk
-/home/caltrop/.local/bin/fat-cat-dir.sh
-/home/caltrop/.local/bin/fat-cat-dsp.awk
-/home/caltrop/.local/bin/fat-cat-ed.awk
-/home/caltrop/.local/bin/fat-cat-ed.sh
-/home/caltrop/.local/bin/fat-cat.sh
-/home/caltrop/.local/bin/fat-cat-sum.awk
-/home/caltrop/.local/bin/fat-cat-sum-bar.awk
-/home/caltrop/.local/bin/fat-cat-sum.sh
-_fat cat.txt -> readme
-/home/caltrop/.local/bin/fatsort.awk
-/home/caltrop/.local/bin/fatsort.sh
-/home/caltrop/.local/bin/grep-fat-cat.sh
-/home/caltrop/.local/bin/mnt.sh
-/home/caltrop/.local/bin/mntx.awk
-/home/caltrop/.local/bin/mntx.sh
+disk.sh
 
+here's a utility that I use a LOT!
+nice bargraph of the hard drives
+if your're a data hoarder like me this is essential
+I added it to .bashrc so it runs when a terminal is opened
+
+disk-c.sh
+
+continuous statistics display
+
+disk-sum.sh
+
+a continuation or the previous
+this shows a bargraph for all first level directories for all external drives
+the $HOME drive has too many directories for this to work well
+so I did external drives only that are used for storage
+
+================================================================================
+fat-cat
+--------------------------------------------------------------------------------
+sort & catalog flash drives
+
+================================================================================
 ffmpeg
-/home/caltrop/bin/ffmpeg-hflip.sh
-/home/caltrop/bin/ffmpeg-make.sh
-/home/caltrop/bin/ffmpeg.sh
-_ffmpeg.txt -> readme
+--------------------------------------------------------------------------------
+automated ffmpeg stuff
 
-git hub
-/home/caltrop/.local/bin/git-hub.sh
-_git hub.txt -> readme
+see individual scripts for instructions
 
+================================================================================
+gps
+--------------------------------------------------------------------------------
+various utilities for maintaining GPS data
+
+================================================================================
 media
-/home/caltrop/data/flash.dat
-/home/caltrop/.local/bin/media.sh
-_media.txt -> readme
-/home/caltrop/.local/bin/archive/videos.awk
+--------------------------------------------------------------------------------
+used for maintaining flash media
 
+drive list stored in flash.dat, can be used elsewhere
+
+================================================================================
 misc
-/home/caltrop/bin/file.sh
-/home/caltrop/data/global.dat
-/home/caltrop/.local/bin/icons.sh
-/home/caltrop/.local/bin/lnk-chk.sh
-_misc.txt -> readme
+--------------------------------------------------------------------------------
+miscellaneous stuff here
 
+file.sh [-c] "filename"
+
+complete file info, -c turns on color
+
+global.dat
+
+used in many scripts
+offers escape sequences for color & boxes
+icon definitions for use with notifications
+display dividers
+
+things like icons will need modification for your system
+
+icons.sh "pattern"
+
+copies selected icons to $HOME/temp/icons
+then you can easily look through the icons
+
+lnk-chk.sh
+
+checks home directory for broken links
+lists possible solutions
+if you're linked into the root directory no solutions will be offered
+
+================================================================================
 moon
-/home/caltrop/.local/bin/df.awk
-/home/caltrop/.local/bin/df.sh
-/home/caltrop/.local/bin/free.awk
-/home/caltrop/.local/bin/free.sh
-/home/caltrop/.local/bin/moon.sh
-_moon.txt -> readme
+--------------------------------------------------------------------------------
+phases of the moon & prompt
 
+can be used in command line prompt
+
+================================================================================
 pactl
-/home/caltrop/.local/bin/lspactl.awk
-/home/caltrop/.local/bin/lspactl.sh
-/home/caltrop/.local/bin/pactl.awk
-/home/caltrop/.local/bin/pactl-o.awk
-/home/caltrop/.local/bin/pactl-o.sh
-/home/caltrop/.local/bin/pactl.sh
-_pactl.txt -> readme
-/home/caltrop/.local/bin/pactl-z.sh
-/home/caltrop/.local/bin/thx.sh
-/home/caltrop/.local/bin/xrandr.awk
-/home/caltrop/.local/bin/xrandr.sh
+--------------------------------------------------------------------------------
+an easy way to change your Pulse Audio Sound Settings
 
+================================================================================
 periodic
-/home/caltrop/.local/bin/periodic.awk
-/home/caltrop/.local/bin/periodic.sh
-/home/caltrop/data/periodic_table.csv
-_periodic.txt -> readme
+--------------------------------------------------------------------------------
+periodic table utility
 
+recognizes regular expressions
+
+put the data CSV where you want then modify periodic.sh
+
+the original CSV data had Wolfram (sumbol W) it is now Tungsten
+
+================================================================================
+title-boxes
+--------------------------------------------------------------------------------
 title boxes
-/home/caltrop/.local/bin/title-80.sh
-/home/caltrop/.local/bin/title.awk
-_title boxes.txt -> readme
-/home/caltrop/.local/bin/title-cmd.awk
-/home/caltrop/.local/bin/title.sh
-/home/caltrop/data/title-test.dat
-/home/caltrop/bin/title-test.sh
 
+draw various boxes around centered text
+
+================================================================================
+xed
+--------------------------------------------------------------------------------
+xed text editor
+
+how to configure it
+
+================================================================================
