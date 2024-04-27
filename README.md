@@ -1,10 +1,17 @@
 # _Overview
+
+Git Hub
+--------------------------------------------------------------------------------
 a look at all repositories
 
 I tired updating via the command line
+
 remote: Support for password authentication was removed on August 13, 2021.
 I even tried the TOKEN thing... NOTHING WORKS!
+
 looks to be BROKEN... except for manual updates via the web-site which SUCKS!
+
+AN ENTIRE DAY WASTED IN FUTILITY!!!
 
 acronym
 --------------------------------------------------------------------------------
